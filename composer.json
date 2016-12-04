@@ -1,0 +1,32 @@
+{
+    "name": "bambov/rutracker-cli",
+    "description": "Library for integration with rutracker",
+    "keywords": [ "php", "rutracker", "cli"],
+    "homepage": "https://github.org/bambov/rutracker-cli",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "bambov/rutracker-api": "dev-master",
+        "symfony/console": "3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BamboV\\RutrackerCLI\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladimir Barmotin",
+            "email": "barmotinvladimir@gmail.com"
+        }
+    ],
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/BamboV/rutrackerAPI" }
+    ]
+}
